@@ -4,8 +4,8 @@ import { HashRouter } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.scss";
 
-// const isGitHubPages = window.location.hostname === "keltz-dev.github.io";
-// const basename = isGitHubPages ? "" : "";
+const isGitHubPages = window.location.hostname === "keltz-dev.github.io";
+const basename = isGitHubPages ? "/stevos-website" : "";
 
 // const router = createHashRouter([
 //   {
@@ -15,8 +15,7 @@ import "./index.scss";
 // ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  // <RouterProvider router={router}/>
-  <HashRouter>
+  <HashRouter basename={basename}>
     <App />
   </HashRouter>
 );
