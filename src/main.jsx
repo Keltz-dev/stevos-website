@@ -15,7 +15,7 @@ const basename = isGitHubPages ? "/stevos-website" : "";
 // ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <HashRouter basename="/stevos-website">
+  <HashRouter>
     <App />
   </HashRouter>
 );
