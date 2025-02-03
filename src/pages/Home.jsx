@@ -51,7 +51,7 @@ const Home = () => {
               />
               <div className="page-link-card__content">
                 <h2 className="inter-normal">gaia</h2>
-                <p>master project</p>
+                <p className="inter-normal">master project</p>
               </div>
             </div>
           </Link>
@@ -100,7 +100,7 @@ const Home = () => {
               />
               <div className="page-link-card__content">
                 <h2 className="inter-normal">garden+house</h2>
-                <p>bachelor project</p>
+                <p className="inter-normal">bachelor project</p>
               </div>
             </div>
           </Link>
