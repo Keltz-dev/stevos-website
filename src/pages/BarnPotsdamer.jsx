@@ -2,6 +2,9 @@ const BarnPotsdamer = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">the barn potsdamer platz</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -14,12 +17,12 @@ const BarnPotsdamer = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                The project is located in the historic building &quot;Weinhaus Huth&quot;
-                at Alte Potsdamerstrasse 5 in Berlin. The building was completed
-                in 1912 and was home to a wine shop with an adjoining
-                restaurant. Due to its immediate vicinity to the Berlin Wall it
-                remains a symbol of the destruction and division of the city in
-                the post-war period.
+                The project is located in the historic building &quot;Weinhaus
+                Huth&quot; at Alte Potsdamerstrasse 5 in Berlin. The building
+                was completed in 1912 and was home to a wine shop with an
+                adjoining restaurant. Due to its immediate vicinity to the
+                Berlin Wall it remains a symbol of the destruction and division
+                of the city in the post-war period.
               </p>
             </div>
           </div>

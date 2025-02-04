@@ -2,6 +2,7 @@ const BachelorThesis = () => {
   return (
     <>
       <div className="container">
+        <div className="centered"><h2 className='inter-normal'>bachelor thesis</h2></div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">

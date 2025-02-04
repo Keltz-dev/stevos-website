@@ -2,6 +2,9 @@ const Gaia = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">gaia</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -74,7 +77,10 @@ const Gaia = () => {
           </div>
           <div className="grid-item">
             <div className="img-container">
-              <img src="https://static.wixstatic.com/media/122352_20e37aaaa9804257bd9510adaa7838c2~mv2.gif" alt="" />
+              <img
+                src="https://static.wixstatic.com/media/122352_20e37aaaa9804257bd9510adaa7838c2~mv2.gif"
+                alt=""
+              />
             </div>
           </div>
           <div className="grid-item">
@@ -84,17 +90,26 @@ const Gaia = () => {
           </div>
           <div className="grid-item">
             <div className="img-container">
-              <img src="https://static.wixstatic.com/media/122352_a60a60adffbb4a3f82ea03049db4dcfb~mv2.gif" alt="" />
+              <img
+                src="https://static.wixstatic.com/media/122352_a60a60adffbb4a3f82ea03049db4dcfb~mv2.gif"
+                alt=""
+              />
             </div>
           </div>
           <div className="grid-item">
             <div className="img-container">
-              <img src="https://static.wixstatic.com/media/122352_c9efc43812c24d27ba8d9df9cb32b220~mv2.jpg/v1/fill/w_690,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Zwischenkritik_0%20(dragged)%202.jpg" alt="" />
+              <img
+                src="https://static.wixstatic.com/media/122352_c9efc43812c24d27ba8d9df9cb32b220~mv2.jpg/v1/fill/w_690,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Zwischenkritik_0%20(dragged)%202.jpg"
+                alt=""
+              />
             </div>
           </div>
           <div className="grid-item span-2">
             <div className="img-container">
-              <img src="https://static.wixstatic.com/media/122352_d44491011b3c4131805a5d8f0a488585~mv2.gif" alt="" />
+              <img
+                src="https://static.wixstatic.com/media/122352_d44491011b3c4131805a5d8f0a488585~mv2.gif"
+                alt=""
+              />
             </div>
           </div>
         </div>

@@ -2,6 +2,9 @@ const MusicianHouse = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">house for a musician</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -14,8 +17,8 @@ const MusicianHouse = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                The house for a musician attempts to unite an artist&apos;s home and
-                workplace. It stands on a narrow piece of land between the
+                The house for a musician attempts to unite an artist&apos;s home
+                and workplace. It stands on a narrow piece of land between the
                 S-Bahn tracks and the Siegfriedstr. in Neukölln, Berlin.
               </p>
             </div>

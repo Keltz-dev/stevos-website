@@ -2,6 +2,9 @@ const About = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">work experience</h2>
+        </div>
         <div className="grid even-rows">
           <div className="grid-item-cv">
             <div className="text-wrapper wrapper-cv">
@@ -61,6 +64,26 @@ const About = () => {
             <div className="text-wrapper wrapper-cv montserrat-normal">
               <p>Internship 3 months:</p>
               <p>Visualization and project support</p>
+            </div>
+          </div>
+        </div>
+        <div className="centered">
+          <h2 className="inter-normal">education</h2>
+        </div>
+        <div className="grid even-rows">
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">
+                MA Architecture, University of the Arts Berlin
+              </h2>
+              <h3 className="inter-normal">
+                2019 - 2022 Pass with distinction
+              </h3>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv montserrat-normal">
+              <p></p>
             </div>
           </div>
         </div>
