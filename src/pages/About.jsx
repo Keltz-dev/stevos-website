@@ -71,7 +71,7 @@ const About = () => {
           <h2 className="inter-normal">education</h2>
         </div>
         <div className="grid even-rows">
-          <div className="grid-item-cv">
+          <div className="grid-item-cv span-2">
             <div className="text-wrapper wrapper-cv">
               <h2 className="inter-normal">
                 MA Architecture, University of the Arts Berlin
@@ -81,9 +81,111 @@ const About = () => {
               </h3>
             </div>
           </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">
+                BA Architecture, University of the Arts Berlin
+              </h2>
+              <h3 className="inter-normal">
+                2019 - 2022 Pass with distinction
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div className="centered">
+          <h2 className="inter-normal">software</h2>
+        </div>
+        <div className="grid even-rows">
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">CAD</h2>
+              <h3 className="inter-normal">VectorWorks, ArchiCAD, Rhino</h3>
+            </div>
+          </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">Adobe</h2>
+              <h3 className="inter-normal">InDesign, Illustrator, Photoshop</h3>
+            </div>
+          </div>
+        </div>
+        <div className="centered">
+          <h2 className="inter-normal">languages</h2>
+        </div>
+        <div className="grid even-rows">
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">German</h2>
+            </div>
+          </div>
           <div className="grid-item-cv">
             <div className="text-wrapper wrapper-cv montserrat-normal">
-              <p></p>
+              <p>Native speaker</p>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">English</h2>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv montserrat-normal">
+              <p>Fluent in speech and writing</p>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">Portuguese</h2>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv montserrat-normal">
+              <p>Fluent in speech and proficient writing</p>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">French</h2>
+            </div>
+          </div>
+          <div className="grid-item-cv">
+            <div className="text-wrapper wrapper-cv montserrat-normal">
+              <p>Basic knowledge</p>
+            </div>
+          </div>
+        </div>
+        <div className="centered">
+          <h2 className="inter-normal">stay abroad</h2>
+        </div>
+        <div className="grid even-rows">
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">Lisboa, Portugal</h2>
+              <h3 className="inter-normal">2016 - 2017</h3>
+            </div>
+          </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">London, GB</h2>
+              <h3 className="inter-normal">2000 - 2006</h3>
+            </div>
+          </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">New York, USA</h2>
+              <h3 className="inter-normal">1999 - 2000</h3>
+            </div>
+          </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">Mumbai, India</h2>
+              <h3 className="inter-normal">1997 - 1999</h3>
+            </div>
+          </div>
+          <div className="grid-item-cv span-2">
+            <div className="text-wrapper wrapper-cv">
+              <h2 className="inter-normal">Singapore, Singapore</h2>
+              <h3 className="inter-normal">1995 - 1997</h3>
             </div>
           </div>
         </div>
