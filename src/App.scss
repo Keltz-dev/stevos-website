@@ -48,7 +48,9 @@ body {
   font-style: normal;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--main-accent-color);
 }
 
@@ -171,14 +173,13 @@ a {
 
   h2,
   p {
-
     text-align: center;
     max-width: 80%;
     color: white;
   }
 }
 
-@media(pointer: fine) {
+@media (pointer: fine) {
   .page-link-card__content {
     opacity: 0;
     background: rgba(0, 0, 0, 0.3);
@@ -261,7 +262,7 @@ a {
   margin-bottom: 2rem;
 }
 
-@media(min-width: 490px) {
+@media (min-width: 490px) {
   .even-rows {
     grid-auto-rows: 1fr;
   }
@@ -271,4 +272,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.rounded {
+  height: 213px;
+  width: 213px;
+  border-radius: 50%;
 }
