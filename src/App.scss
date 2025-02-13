@@ -200,6 +200,8 @@ a {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: min-content;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
 }
 
 @media (min-width: 490px) {
@@ -264,3 +266,10 @@ a {
     grid-auto-rows: 1fr;
   }
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
