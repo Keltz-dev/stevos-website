@@ -2,6 +2,9 @@ const GardenHouse = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">garden house</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -15,13 +18,13 @@ const GardenHouse = () => {
             <div className="text-wrapper montserrat-normal">
               <p>
                 The building site is located the non-consolidated area of
-                Chelas, overlooking the valley towards Lisbon&apos;s lake Tejo. Each
-                student is given one lot of many, that have been defined by a
-                masterplan of the area. Each lot has a building dimension of 10
-                by 15 meters, with an additional garden space with varying size.
-                The goal of the project is to create a valuable living space for
-                an amount of people each student may choose on their own. I
-                decided to design a space for one big family, five to six
+                Chelas, overlooking the valley towards Lisbon&apos;s lake Tejo.
+                Each student is given one lot of many, that have been defined by
+                a masterplan of the area. Each lot has a building dimension of
+                10 by 15 meters, with an additional garden space with varying
+                size. The goal of the project is to create a valuable living
+                space for an amount of people each student may choose on their
+                own. I decided to design a space for one big family, five to six
                 people.
               </p>
             </div>
@@ -80,8 +83,8 @@ const GardenHouse = () => {
                 living and dining room. This room connects to the garden
                 terrace, only divided by glass doors, which can be pushed
                 entirely into the wall. The double height connects additionally
-                to the second floor&apos;s work space, via an interior balcony. The
-                shared work space functions simultaneously as a corridor,
+                to the second floor&apos;s work space, via an interior balcony.
+                The shared work space functions simultaneously as a corridor,
                 connected to the private bedrooms of the children. These compact
                 rooms have large sliding windows, to open up the room towards
                 the shared patio.{" "}

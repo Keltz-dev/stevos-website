@@ -2,6 +2,9 @@ const MasterThesis = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">master thesis</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">

@@ -2,6 +2,9 @@ const ReproductiveCity = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">reproductive city</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -47,8 +50,8 @@ const ReproductiveCity = () => {
               <p>It is framed by four keywords:</p>
               <br />
               <p>
-                <i>Integrative:</i> Everyone is welcome! Seamless transition between
-                the city and site.
+                <i>Integrative:</i> Everyone is welcome! Seamless transition
+                between the city and site.
               </p>
             </div>
           </div>
@@ -63,8 +66,8 @@ const ReproductiveCity = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                <i>Reproduction:</i> Adding the layer of reproductivity to the urban
-                landscape. Mixing functions creates a larger and dense
+                <i>Reproduction:</i> Adding the layer of reproductivity to the
+                urban landscape. Mixing functions creates a larger and dense
                 environment.
               </p>
             </div>
@@ -80,8 +83,8 @@ const ReproductiveCity = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                <i>Community:</i> Unprogrammed free spaces for residents. Spaces for
-                public interaction.
+                <i>Community:</i> Unprogrammed free spaces for residents. Spaces
+                for public interaction.
               </p>
             </div>
           </div>
@@ -96,8 +99,8 @@ const ReproductiveCity = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                <i>Circulation:</i> Spaces that enhance the circulation of social
-                connectivity, knowledge and resources.
+                <i>Circulation:</i> Spaces that enhance the circulation of
+                social connectivity, knowledge and resources.
               </p>
             </div>
           </div>

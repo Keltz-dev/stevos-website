@@ -1,6 +1,6 @@
 {
   "name": "stevos-website",
-  "homepage": "https://keltz-dev.github.io/stevos-website",
+  "homepage": "www.steffensasse.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.2"

@@ -2,6 +2,9 @@ const RollheimerTrailerPark = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">rollheimer trailer park</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -14,11 +17,12 @@ const RollheimerTrailerPark = () => {
           <div className="grid-item">
             <div className="text-wrapper montserrat-normal">
               <p>
-                The site of the &quot;Rollheimer&quot; trailer park in Oderstraße, is
-                located close to the St. Jacobi cemetery in Berlin Neukölln.
-                Between the busy Hermannstraße and the open space of the former
-                Tempelhof Airport, the residents have created an autonomous
-                green village in the middle a hectic urban environment.
+                The site of the &quot;Rollheimer&quot; trailer park in
+                Oderstraße, is located close to the St. Jacobi cemetery in
+                Berlin Neukölln. Between the busy Hermannstraße and the open
+                space of the former Tempelhof Airport, the residents have
+                created an autonomous green village in the middle a hectic urban
+                environment.
               </p>
             </div>
           </div>

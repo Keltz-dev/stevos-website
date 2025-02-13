@@ -2,6 +2,9 @@ const BadActor = () => {
   return (
     <>
       <div className="container">
+        <div className="centered">
+          <h2 className="inter-normal">bad actor - moon palace</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -36,8 +39,8 @@ const BadActor = () => {
               <p>
                 The architectural design's symmetry is intentionally accentuated
                 in the music video through a central perspective. In this visual
-                narrative, the artist Bad Actor becomes the focal point and takes
-                center stage amidst the symmetrical surroundings.
+                narrative, the artist Bad Actor becomes the focal point and
+                takes center stage amidst the symmetrical surroundings.
               </p>
             </div>
           </div>
