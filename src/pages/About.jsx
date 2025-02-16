@@ -3,12 +3,14 @@ const About = () => {
     <>
       <div className="container">
         <div className="centered">
-          <h2 className="inter-normal">work experience</h2>
           <img
-            className='rounded'
+            className="rounded"
             src="https://static.wixstatic.com/media/122352_6504cf07bea5441f8bc7288a67fa6384~mv2.jpg/v1/crop/x_0,y_598,w_2433,h_2433/fill/w_320,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/R1-03527-0030_JPG.jpg"
             alt="Image of Steffen Sasse"
           />
+        </div>
+        <div className="centered">
+          <h2 className="inter-normal">work experience</h2>
         </div>
         <div className="grid even-rows">
           <div className="grid-item-cv">
@@ -194,9 +196,14 @@ const About = () => {
             </div>
           </div>
         </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
+          </div>
+        </div>
       </div>
     </>
   );
-}
+};
 
 export default About;

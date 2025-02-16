@@ -54,9 +54,20 @@ const BadActor = () => {
             </div>
           </div>
         </div>
+        <div className="centered">
+          <h3 className="inter-normal max-20">
+            with Bad Actor, Budakid, Michael Czernicki, Clarissa Walter, and
+            Aimée G 2023
+          </h3>
+        </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
+          </div>
+        </div>
       </div>
     </>
   );
-}
+};
 
 export default BadActor;

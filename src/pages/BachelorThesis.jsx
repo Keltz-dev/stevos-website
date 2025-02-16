@@ -2,7 +2,9 @@ const BachelorThesis = () => {
   return (
     <>
       <div className="container">
-        <div className="centered"><h2 className='inter-normal'>bachelor thesis</h2></div>
+        <div className="centered">
+          <h2 className="inter-normal">bachelor thesis</h2>
+        </div>
         <div className="grid">
           <div className="grid-item">
             <div className="img-container">
@@ -113,6 +115,16 @@ const BachelorThesis = () => {
                 alt="bachelor thesis project model image"
               />
             </div>
+          </div>
+        </div>
+        <div className="centered">
+          <h3 className="inter-normal max-20">
+            Studio Prof. Gabriele Schultheiß and Anne Bruschke 2019
+          </h3>
+        </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
           </div>
         </div>
       </div>

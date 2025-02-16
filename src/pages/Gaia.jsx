@@ -113,6 +113,16 @@ const Gaia = () => {
             </div>
           </div>
         </div>
+        <div className="centered">
+          <h3 className="inter-normal max-20">
+            Studio Prof. Norbert Palz 2020
+          </h3>
+        </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -128,8 +128,8 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <a
-            href="https://blush-aleta-61.tiiny.site"
+          <Link
+            to="https://12235230-9972-4042-b255-52adfc2ff2a7.usrfiles.com/ugd/122352_1fca369c0f0746fc8003698c88c22826.pdf"
             target="_blank"
             className="link"
           >
@@ -140,14 +140,20 @@ const Home = () => {
                 className="page-link-card__img"
               />
               <div className="page-link-card__content">
-                <h2 className="inter-normal">são paulo 1964-1985 urban expansion</h2>
+                <h2 className="inter-normal">
+                  são paulo 1964-1985 urban expansion
+                </h2>
               </div>
             </div>
-          </a>
-          <Link to="theo-deutinger" target="_blank" className="link">
+          </Link>
+          <Link
+            to="https://12235230-9972-4042-b255-52adfc2ff2a7.usrfiles.com/ugd/122352_0abb61cbe5744cf2ac3641be371d0906.pdf"
+            target="_blank"
+            className="link"
+          >
             <div className="page-link-card stacked">
               <img
-                src="https://static.wixstatic.com/media/122352_0d600bf769ec4246b81110441ed412f6~mv2.jpg/v1/fill/w_253,h_253,fp_0.52_0.48,q_90/122352_0d600bf769ec4246b81110441ed412f6~mv2.webp"
+                src="https://static.wixstatic.com/media/122352_0d600bf769ec4246b81110441ed412f6~mv2.jpg"
                 alt=""
                 className="page-link-card__img"
               />
@@ -159,7 +165,11 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link to="politics of mapping" target="_blank" className="link">
+          <Link
+            to="https://12235230-9972-4042-b255-52adfc2ff2a7.usrfiles.com/ugd/122352_33d76dfea18446499bc01d63c4ab6acd.pdf"
+            target="_blank"
+            className="link"
+          >
             <div className="page-link-card stacked">
               <img
                 src="https://static.wixstatic.com/media/122352_43342f4da0b34c7985c58c62f39662aa~mv2.gif/v1/fill/w_253,h_253,q_90/122352_43342f4da0b34c7985c58c62f39662aa~mv2.webp"
@@ -171,6 +181,11 @@ const Home = () => {
               </div>
             </div>
           </Link>
+        </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
+          </div>
         </div>
       </div>
     </>

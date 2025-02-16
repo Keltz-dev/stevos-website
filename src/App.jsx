@@ -38,12 +38,11 @@ function App() {
     }
 
     if (scrollData.currentY < scrollData.previousY) {
-      setShowNav(true)
+      setShowNav(true);
     } else {
       setShowNav(false);
     }
   }, [scrollData]);
-
 
   return (
     <>

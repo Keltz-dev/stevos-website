@@ -210,6 +210,16 @@ const RollheimerTrailerPark = () => {
             </div>
           </div>
         </div>
+        <div className="centered">
+          <h3 className="inter-normal max-20">
+            with Patrick Hemmerden Studio Prof. Bettina Götz 2016
+          </h3>
+        </div>
+        <div className="centered">
+          <div className="text-wrapper montserrat-normal">
+            <p>©2023 by Steffen Sasse</p>
+          </div>
+        </div>
       </div>
     </>
   );
