@@ -79,8 +79,11 @@ img,
 picture,
 video,
 svg {
-  display: block;
   max-width: 100%;
+}
+
+.img-container {
+  width: 100%;
 }
 
 .text-wrapper {
