@@ -4,16 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import BachelorThesis from "./pages/BachelorThesis";
-import BadActor from "./pages/BadActor";
-import BarnPotsdamer from "./pages/BarnPotsdamer";
-import BarnRosenthaler from "./pages/BarnRosenthaler";
-import Gaia from "./pages/Gaia";
-import GardenHouse from "./pages/GardenHouse";
-import MasterThesis from "./pages/MasterThesis";
-import MusicianHouse from "./pages/MusicianHouse";
-import ReproductiveCity from "./pages/ReproductiveCity";
-import RollheimerTrailerPark from "./pages/RollheimerTrailerPark";
+import ProjectPage from "./pages/ProjectPage";
+import projects from "./projects";
 
 function App() {
   const [scrollData, setScrollData] = useState({ currentY: 0, previousY: 0 });
@@ -67,19 +59,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/bachelor-thesis" element={<BachelorThesis />} />
-        <Route path="/bad-actor" element={<BadActor />} />
-        <Route path="/the-barn-potsdamer" element={<BarnPotsdamer />} />
-        <Route path="/the-barn-rosenthaler" element={<BarnRosenthaler />} />
-        <Route path="/gaia" element={<Gaia />} />
-        <Route path="/garden+house" element={<GardenHouse />} />
-        <Route path="/master-thesis" element={<MasterThesis />} />
-        <Route path="/house-for-a-musician" element={<MusicianHouse />} />
-        <Route path="/reproductive-city" element={<ReproductiveCity />} />
-        <Route
-          path="/rollheimer-trailer-park"
-          element={<RollheimerTrailerPark />}
-        />
+        <Route path="/:slug" element={<ProjectPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>

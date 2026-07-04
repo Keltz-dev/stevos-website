@@ -29,6 +29,7 @@
   margin: 0;
   padding: 0;
   font: inherit;
+  scrollbar-gutter: stable;
 }
 
 body {
@@ -198,8 +199,6 @@ a {
   grid-row: 1 / 2;
 }
 
-// Bad Actor
-
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -248,8 +247,6 @@ a {
   padding-top: 5px;
   padding-bottom: 1rem;
   position: sticky;
-  top: 0;
-  overflow: hidden;
   background-color: var(--background-color);
   transform: translateY(-5px);
   transition-property: transform;
